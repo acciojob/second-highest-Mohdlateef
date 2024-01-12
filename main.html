@@ -13,7 +13,7 @@
 			// alert(arr);
 			if(arr.length===0)
 			{
-				return "-Infinity";
+				return -Infinity;
 			}
 		 let count=0;
 			
@@ -23,11 +23,13 @@
 					{
 						count++;
 					}
+
+					
 					arr.sort(fun);
 				}
 			if(count===arr.length)
 			{
-				return "-Infinity";
+				return -Infinity;
 				
 			}
 			function fun(a,b){
